@@ -7,15 +7,15 @@ namespace kruh
 
         static void Main(string[] args)
         {
-            ValueType vyber;
+            ValueType menuSelection;
             double prumer;
             double polomer;
             {
                 Console.Clear();
-                vyber = Menu();
-                if (vyber == ValueType.prumer)
+                menuSelection = Menu();
+                if (menuSelection == ValueType.prumer)
                 {
-                    radius = 
+                    radius = UserInputRadius
 
                 }
             }
